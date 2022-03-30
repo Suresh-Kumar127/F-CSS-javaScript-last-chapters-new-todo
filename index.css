@@ -1,0 +1,100 @@
+body {
+  background-color: #00b8a9 !important;
+}
+/* .name {
+  background: #00b8a9;
+} */
+.name {
+  color: #f8f3d4;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+  padding-top: 40px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  display: block;
+  background-color: #00b8a9;
+  z-index: 10000;
+}
+.name h1 {
+  font-weight: bolder;
+}
+.parent {
+  max-width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: -100%;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.innerDiv {
+  min-width: 70%;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+}
+label {
+  width: 200px;
+}
+#title,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #f8f3d4;
+  background-color: transparent;
+}
+#title:focus,
+textarea:focus {
+  border: none !important;
+}
+.btnMain {
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  padding: 5px;
+  line-height: 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  background-color: #dadbbd;
+  color: black;
+  display: block;
+  margin: auto;
+}
+.btnMain:hover,
+.btnInner:hover {
+  background-color: white;
+}
+.btnInner {
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  line-height: 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  background-color: #dadbbd;
+  color: black;
+  margin-right: 10px;
+}
+#box {
+  border: 2px solid #f8f3d4;
+  padding: 20px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.input {
+  margin-top: 100px;
+}
